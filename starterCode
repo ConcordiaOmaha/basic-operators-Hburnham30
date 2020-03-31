@@ -9,21 +9,15 @@
 int main()
 
 {
-
-
-
   double num1 = 0; 
-
   std::cout << "enter a number"; 
-
   std::cin >> num1; 
-
-  
-
-  double num2 = 5 * num1; 
-
-  std::cout << " 5 times your number is " << "\n" << num2;
-
-    
-
-}
+  double num2 = 5 + num1; 
+  std::cout << " 5 + your number is " << num2 << "\n";
+  double num3 = 5 - num1;
+  std::cout << " 5 - your number is " << num3 << "\n";
+  double num4 = 5 * num1;
+  std::cout << " 5 times your number is " << num4 << "\n";
+  double num5 = 5 / num1;
+  std::cout << " 5 divided by your number is " << num5 << "\n";
+  }
