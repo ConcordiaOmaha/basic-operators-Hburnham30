@@ -1,48 +1,23 @@
 // Example program
-
-
-
 #include <iostream>
-
-
-
 #include <string>
-
-
-
-
-
-
-
 int main()
-
-
-
 {
-
-int num1 = 0; 
-
-  std::cout << "enter a number"; 
-
+std::cout << "ALL INPUTS MUST BE INTEGERS\n";
+  int num1 = 0; 
+  int num2 = 0;
+  std::cout << "enter a number:\n"; 
   std::cin >> num1; 
-
-  int num2 = 5 + num1; 
-
-  std::cout << " 5 + your number is " << num2 << "\n";
-
-  int num3 = 5 - num1;
-
-  std::cout << " 5 - your number is " << num3 << "\n";
-
-  int num4 = 5 * num1;
-
-  std::cout << " 5 times your number is " << num4 << "\n";
-
-  int num5 = 5 / num1;
-
-  std::cout << " 5 divided by your number is " << num5 << "\n";
-  
-  int num6 = 5 % num1;
-  std::cout << " 5 mod your number is " << num6<< "\n";
-
-  }
+  std::cout << "enter another number:\n";
+  std::cin >> num2; 
+  int output1 = num1 + num2;
+  std::cout << num1 << "+" << num2 << "=" << output1 << "\n";
+   int output2 = num1 - num2;
+  std::cout << num1 << "-" << num2 << "=" << output2 << "\n";
+     int output3 = num1 * num2;
+  std::cout << num1 << "*" << num2 << "=" << output3 << "\n";
+   int output4 = num1 / num2;
+  std::cout << num1 << "/" << num2 << "=" << output4;
+  int output5 = num1 % num2;
+  std::cout << " Remainder " << output5 << "\n";
+}
